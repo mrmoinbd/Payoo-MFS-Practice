@@ -18,4 +18,4 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
     else{
         alert('Wrong! Please try again');
     }
-})
+});
