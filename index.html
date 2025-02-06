@@ -29,13 +29,14 @@
 
             <!-- Features button start -->
             <div>
-              <button class="btn btn-lg">Add MOney</button>
-              <button class="btn btn-lg">Cash Out</button>
+              <button id="btn-show-addmoney" class="btn btn-lg">Add MOney</button>
+              <button id="btn-show-cashmoney" class="btn btn-lg">Cash Out</button>
+              <button id="btn-show-transection" class="btn btn-lg">Cash Out</button>
             </div>
             <!-- Features button end -->
 
             <!-- login form add money start -->
-            <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <div id="addmoney-form" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
               <form class="card-body">
                 <div class="form-control">
                   <label class="label">
@@ -69,7 +70,7 @@
             <!-- login form add money end -->
 
             <!-- login form cashout start -->
-            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <div id="cashout-form" class=" hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
               <form class="card-body">
                 <div class="form-control">
                   <label class="label">
@@ -101,6 +102,12 @@
               </form>
             </div>
             <!-- login form cashout end -->
+
+            <!-- transection section strt -->
+             <div id="transection-section" class="hidden">
+              <h1 class="text-2xl center ">Transection History</h1>
+             </div>
+            <!-- transection section end -->
           </div>
         </div>
       </div>
@@ -109,5 +116,6 @@
     <!-- <script src="./js/payoo.js"></script> -->
      <script src="./js/addmoney.js"></script>
      <script src="./js/cashout.js"></script>
+     <script src="./js/featurs.js"></script>
   </body>
 </html>
